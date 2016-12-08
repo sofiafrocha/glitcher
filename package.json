@@ -1,0 +1,29 @@
+{
+  "name": "glitcher",
+  "version": "0.0.1",
+  "description": "You give a picture, you get a (glitched) picture",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiafrocha/glitcher.git"
+  },
+  "keywords": [
+    "pixel-sorting",
+    "pixel-sort",
+    "glitch",
+    "p5",
+    "processing"
+  ],
+  "author": "Sofia F. Rocha",
+  "bugs": {
+    "url": "https://github.com/sofiafrocha/glitcher/issues"
+  },
+  "homepage": "https://github.com/sofiafrocha/glitcher#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "p5": "^0.5.5"
+  }
+}

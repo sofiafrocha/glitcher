@@ -1,0 +1,38 @@
+body,
+h1, h2 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	display: flex;
+	margin: 0px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1000px;
+	flex-direction: row;
+
+	h2 {
+		font-family: monospace;
+	}
+}
+
+.main {
+	&-left,
+	&-right {
+		padding: 5px;
+		width: 50%;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		canvas {
+			// hacky, but works for now
+			width: 100% !important;
+			height: auto !important;
+		}
+	}
+}
